@@ -25,7 +25,7 @@ function App() {
   if(id===null&&name===null){
     name="No Restaurant"
   }
-  const usersCollectionRef = collection(db, "bsVjiccW65PWZmyHj63EVlIzW4g2");
+  const usersCollectionRef = collection(db, id);
 
   useEffect(() => {
     const getUsers = async () => {
