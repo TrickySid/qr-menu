@@ -15,8 +15,6 @@ import './App.css';
 function App() {
   const [newName, setNewName] = useState("");
   const [users, setUsers] = useState([]);
-
-
   var query=window.location.search;
   var USP=new URLSearchParams(query)
   var id=USP.get('id')
