@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+html {
+  font-family: "Montserrat", sans-serif;
+}
+  
+body {
+  background-color: #eee;
+  padding: 0 16px;
+}
+  
+.navbar {
+  background-color: black;
+  margin: auto -16px;
+  padding: 1px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+  
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+  
+.nav-heading {
+  color: #fff;
+  float: right;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  padding-left: 10px;
+}
+  
+#navbrand-img {
+  width: 150px;
+}
+  
+.nav-link {
+  font-size: 2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+  
+.navbar-toggler {
+  border: none;
+}
+
+.resto-name {
+  font-size: 3rem;
+}
+
+.tname, .tprice {
+  text-align: center;
+  width: 100%;
+}
+
+.tdata{
+  border-collapse: collapse;
+}
+
+.row {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.menu-table {
+  text-align: left;
+  width: 250%;
+}
+
+.menu-table tr {
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.menu-table th {
+  font-weight: bold;
+  text-align: left;
+}
+
+.menu-table td, th {
+  padding: 8px 20px;
+  text-align: left;
+}
+
+.container {
+  margin: 0;
+}
